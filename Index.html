@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Harsh's Portfolio</title>
+	<link rel="stylesheet" href="./style.css"/>
+	<link rel="stylesheet" href="./main.css"/>
+	<link rel="stylesheet" href="./utility.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="left"></div>
+			<div class="right">
+				<ul>
+					<li id="home"><a href="">Home</a></li>
+					<li id = "About"><a href="#about">About Me</a></li>
+					<li id = "projects"><a href="#project">Projects</a></li>
+					<li id = "Contact"><a href="#contact-section">Contact Me</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="firstsection">
+			<div class = "leftsection">I am <span class="purple">Harsh Yadav</span> ,<div> an engineering student studying in UPES , Dehradun.</div>
+			<div>I am passionate</div>
+			
+			<span id="element"></span>
+			<div class="buttons">
+				<button class = "btn">Download CV</button>
+				<button class = "btn">GITHUB</button>
+				<button class = "btn">Linked In</button>
+			</div>
+		</div>
+			<div class = "rightsection">
+				<img src="./imgs/Harsh.jpg" alt="">
+			</div>
+		</section>
+
+		<section class = "about" id="about">
+			<h3>About me</h3>
+			<div class="about-align">
+				<div class="about-left">
+					<p>Hello! I'm Harsh Yadav, a dedicated student currently pursuing my studies at UPES, Dehradun. My passion lies in the world of technology, and I am aspiring to become a skilled software engineer. As a curious individual, I am constantly exploring the vast realms of the digital landscape to enhance my understanding and skills.
+					</p>
+				
+					<p>
+						My academic journey has been a rollercoaster of experiences that have shaped my resilience and determination. I started as a bright student until the disruptions caused by the pandemic led me to take a drop year for JEE mains. During that period, a combination of external challenges and my own lack of focus affected my performance.
+	
+					This setback became a catalyst for self-reflection, leading me to reevaluate my goals and priorities. Although I faced challenges and couldn't achieve the rank I aimed for in JEE mains, it became a turning point. It prompted me to take a step back and reconsider my interests and aspirations.
+					</p>	
+				<p>	
+					Now, with a renewed sense of purpose, I am starting afresh. I am dedicating myself to exploring various fields, seeking to discover my true passions. The journey from a period of uncertainty to rebuilding and rediscovery has fueled my commitment to continuous learning and personal growth.
+	
+					I am embracing the opportunity to explore new avenues, build skills, and redefine my path. Despite the challenges, I am optimistic about the future and excited to share my evolving journey through this portfolio. Join me as I navigate this transformative phase and work towards unleashing my full potential.
+	
+					Let's connect, learn, and grow together!
+				</p>
+				</div>
+				<div class="about-right"></div>
+				   
+			</div>
+		</section>
+		<h3>
+			<section class = "projects"  id="project">
+				<h2>Projects</h2>
+				<div class="project">
+					<div class="project-info">
+						<h3>TaX-CaLcUlAtOr</h3>
+						<p>The Tax Calculator project is a web application designed to simplify the complex task of income tax calculation. This user-friendly tool provides individuals with a convenient way to estimate their income tax liabilities based on various parameters.</p>
+						<a href="../taxCalculator/index.html" class="project-link">View Project</a>
+					</div>
+					<div class="project-img"></div>
+				</div>
+			
+				<div class="project">
+					<div class="project-img2"></div>
+					<div class="project-info">
+						<h3>iNvOiCe gENeRaToR</h3>
+						<p>        The Invoice Generator features a user-friendly interface, real-time calculations, and the ability to add or remove items dynamically. It enhances efficiency by automatically calculating totals, applying taxes, and displaying the final amount payable. The generated invoices can be easily downloaded or printed for record-keeping.
+
+					</p>
+					<a href="../InvoiceGenerator/index.html" class="project-link">View Project</a>
+
+					</div>
+				</div>
+			</section>
+		</h3>
+	</main>
+
+	<div class="contact-section" id="contact-section">
+		<div class=contact-bal>
+		<h2>Contact Me</h2>
+		<p>Have a question or want to collaborate? Feel free to reach out!</p>
+	
+		<form id="contactForm" onsubmit="submitForm(event)">
+			<div>
+				<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Your Name" required>
+			</div>
+			<div><label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Your Email" required></div>
+			<div><label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Your Message" required></textarea></div>
+	
+			
+	
+			
+			<button type="submit">Send Message</button>
+
+		</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer">
+			<div class="first">
+				<h3>Harsh's Portfolio</h3>
+			</div>
+
+			<div class="third">
+				<div class="buttons">
+					<button class = "btn">Download CV</button>
+					<button class = "btn">GITHUB</button>
+					<button class = "btn">Linked In</button>
+				</div>
+			</div>
+
+			
+		</div>
+		<div class="footer-rights ">
+			Copyright &#169 | www.Harsh'sPortfolio.com | All rights reserved
+		</div>
+	</footer>
+
+
+
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="./script.js"></script>
+</body>
+</html>

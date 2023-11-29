@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{scroll-behavior: smooth;}
+body{
+    background-color: #020202;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    background-color: #1e0534;
+}
+
+nav ul{
+    display : flex;
+    justify-content : center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul a{
+    text-decoration: none;
+    color : white;
+}
+
+.right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right li {
+    float: left;
+    margin-right: 20px;
+}
+
+.right a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Add a transition to smooth the movement */
+}
+
+.about p{
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+}
+/* Move each list item up a bit on hover */
+#home:hover a {
+    transform: translateY(-5px);
+}
+
+#projects:hover a {
+    transform: translateY(-5px);
+}
+
+#About:hover a {
+    transform: translateY(-5px);
+}
+
+#Contact:hover a {
+    transform: translateY(-5px);
+}
+
+.contact-section {
+    background: #3d1462;
+}
+
+.contact-bal {
+    margin: 0 10rem 0 10rem;
+    padding: 3rem;
+}
+
+.contact-bal h3 {
+    margin: 20px;
+}
+ 
+#contactForm {
+    width: 80%
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+}

@@ -1,0 +1,175 @@
+.left {
+    background-size: contain;
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+.firstsection > div{
+    width : 30%;
+}
+
+.leftsection{
+    font-size: 2.5rem;
+}
+.leftsection .buttons{
+    padding: 50px 0px;
+}
+.leftsection .btn{
+    background-color: #471b6f;
+    color: white;
+    /* border: 2px solid white; */
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightsection img{
+    width: 80%;
+}
+
+footer{
+    background-color: #000000;
+    
+}
+
+.footer{
+    display: flex;
+    padding: 23px 123px; 
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width : 350px;
+}
+footer .footer-rights{
+    text-align : center;
+    color : white;
+    padding : 12px 0;
+}
+
+.about{
+    margin: 50px auto;
+    padding: 50px 100px 50px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #3d1462;
+    color: white;
+    line-height: 1.6;
+}
+
+.about h3 {
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+hr {
+    border: 1px solid  white;
+    margin: 20px 0px;
+}
+
+.projects {
+    height: 850px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-info {
+    width: 40%;
+    text-align: justify;
+}
+
+.project-info p {
+    font-size: 25px;
+}
+
+.project-img {
+    background-image: url("/imgs/incomeTax.png");
+    height: 200px;
+    width: 40%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.project-img2 {
+    background-image: url("/imgs/invoiceImg.png");
+    height: 200px;
+    width: 40%;
+    border-radius: 10px;
+    background-size: cover;  
+}
+
+a.project-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 20px; */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+.about-align {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about-left {
+    width: 60%;
+}
+
+.about-right {
+    background-image: url("/imgs/aboutMe.png");
+    width: 50%;
+    height: 345px;
+    background-size: contain;
+}
